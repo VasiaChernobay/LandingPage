@@ -54,7 +54,7 @@
         }
     }
     section:nth-child(6) {
-        min-height: 764px;
+        min-height: 864px;
         position: relative;
         &::before {
             content: "";
@@ -73,6 +73,7 @@
             flex-direction: row;
             > div {
                 position: relative;
+                
             }
 
             > div > p {
@@ -87,10 +88,11 @@
             }
             input[type="submit"] {
                 position: relative;
+               
             }
         }
         input {
-            margin: 0 15px;
+          
             width: 300px;
         }
     }
@@ -103,5 +105,18 @@
             transform: scale(0.7);
             left: 0%;
         }
+    }
+}
+@media screen and(max-width:1300px){
+    section:nth-child(7) input{
+        margin: 0;
+    }
+    section:nth-child(7) > form > div{
+        margin-top: 50px;
+    }
+}
+@media screen and(min-width:1200px){
+    section:nth-child(7) input{
+        margin: 0 15px;
     }
 }

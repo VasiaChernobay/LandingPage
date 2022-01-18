@@ -40,6 +40,11 @@
         p {
             &:nth-child(2) {
                 line-height: 40px;
+                margin: auto;
+            }
+            &:nth-child(3) {
+               
+                margin: auto;
             }
         }
     }
@@ -87,7 +92,7 @@
             font-weight: 500;
             font-size: 30px;
         }
-        padding-top: 50px;
+      
         padding-bottom: 50px;
         ul {
             padding-left: 0;
@@ -195,5 +200,10 @@
                 }
             }
         }
+    }
+}
+@media screen and(max-width:395px) {
+    section:nth-child(5) > div:first-child > div > p:first-child::before{
+        content: none;
     }
 }

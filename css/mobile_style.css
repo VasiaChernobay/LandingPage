@@ -37,6 +37,10 @@
   }
   section:nth-child(4) p:nth-child(2) {
     line-height: 40px;
+    margin: auto;
+  }
+  section:nth-child(4) p:nth-child(3) {
+    margin: auto;
   }
   section:nth-child(5) {
     min-height: 650px;
@@ -69,7 +73,6 @@
     margin: auto;
   }
   section:nth-child(8) {
-    padding-top: 50px;
     padding-bottom: 50px;
     flex-direction: column;
   }
@@ -173,5 +176,11 @@
     background: url("../image/twitter_s_17579.png");
     background-repeat: no-repeat;
     background-position: center;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  section:nth-child(5) > div:first-child > div > p:first-child::before {
+    content: none;
   }
 }
