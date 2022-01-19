@@ -165,7 +165,7 @@ section:nth-child(3) > div > div p:last-child {
 
 section:nth-child(3) > div > div:first-child::before {
   content: "";
-  background: url("/image/airplane_17158.png") center no-repeat;
+  background: url("../image/airplane_17158.png") center no-repeat;
 }
 
 section:nth-child(3) > div > div:nth-child(2) {
@@ -174,7 +174,7 @@ section:nth-child(3) > div > div:nth-child(2) {
 
 section:nth-child(3) > div > div:nth-child(2)::before {
   content: "";
-  background: url("/image/picture_17134.png") center no-repeat;
+  background: url("../image/picture_17134.png") center no-repeat;
 }
 
 section:nth-child(3) > div > div {
@@ -183,7 +183,7 @@ section:nth-child(3) > div > div {
 
 section:nth-child(3) > div > div::before {
   content: "";
-  background: url("/image/bulb_17168.png") center no-repeat;
+  background: url("../image/bulb_17168.png") center no-repeat;
 }
 
 section:nth-child(4) {

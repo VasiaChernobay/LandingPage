@@ -171,7 +171,7 @@ section:nth-child(3) {
             &::before {
                 content: "";
 
-                background: url("/image/airplane_17158.png") center no-repeat;
+                background: url("../image/airplane_17158.png") center no-repeat;
             }
         }
 
@@ -181,7 +181,7 @@ section:nth-child(3) {
             &::before {
                 content: "";
 
-                background: url("/image/picture_17134.png") center no-repeat;
+                background: url("../image/picture_17134.png") center no-repeat;
             }
         }
 
@@ -191,7 +191,7 @@ section:nth-child(3) {
             &::before {
                 content: "";
 
-                background: url("/image/bulb_17168.png") center no-repeat;
+                background: url("../image/bulb_17168.png") center no-repeat;
             }
         }
     }
