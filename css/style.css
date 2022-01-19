@@ -798,6 +798,7 @@ section:nth-child(8) > div:last-child > div > div:nth-child(4) {
     transform: translateX(-50%);
   }
   section:nth-child(6) {
+    padding-bottom: 400px;
     min-height: 864px;
     position: relative;
   }
