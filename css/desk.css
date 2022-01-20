@@ -1,18 +1,18 @@
 @media screen and (min-width: 1000px) {
-  section:first-child {
+  body > div:first-child {
     min-height: 600px;
     padding-top: 10%;
   }
-  section:first-child > .play_icon,
-  section:first-child > a,
-  section:first-child > p:last-child {
+  body > div:first-child > .play_icon,
+  body > div:first-child > a,
+  body > div:first-child > p:last-child {
     margin-top: 10px;
   }
-  section:nth-child(4) {
+  body > div:nth-child(4) {
     padding: 5% 0 3% 50%;
     position: relative;
   }
-  section:nth-child(4)::before {
+  body > div:nth-child(4)::before {
     content: "";
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
     height: 500px;
     background: url("../image/rectangle_red2.png");
   }
-  section:nth-child(4) > p:first-child:before {
+  body > div:nth-child(4) > p:first-child:before {
     content: "";
     position: absolute;
     top: 15%;
@@ -31,30 +31,30 @@
     left: 5%;
     background: url("../image/macbook_17196.png");
   }
-  section:nth-child(5) {
+  body > div:nth-child(5) {
     min-height: 648px;
     padding-top: 15%;
   }
-  section:nth-child(5) > div:first-child > div {
+  body > div:nth-child(5) > div:first-child > div {
     margin-right: 10%;
   }
-  section:nth-child(5) > div:first-child > div:first-child {
+  body > div:nth-child(5) > div:first-child > div:first-child {
     margin-left: 15%;
   }
-  section:nth-child(5) > div:last-child {
+  body > div:nth-child(5) > div:last-child {
     flex-wrap: wrap;
   }
-  section:nth-child(5) p:first-child::before {
+  body > div:nth-child(5) p:first-child::before {
     top: -100px;
     left: 50%;
     transform: translateX(-50%);
   }
-  section:nth-child(6) {
+  body > div:nth-child(6) {
     padding-bottom: 400px;
     min-height: 864px;
     position: relative;
   }
-  section:nth-child(6)::before {
+  body > div:nth-child(6)::before {
     content: "";
     background: url("../image/safari.png");
     width: 820px;
@@ -64,14 +64,14 @@
     left: 50%;
     transform: translateX(-50%);
   }
-  section:nth-child(7) > form {
+  body > div:nth-child(7) > form {
     display: flex;
     flex-direction: row;
   }
-  section:nth-child(7) > form > div {
+  body > div:nth-child(7) > form > div {
     position: relative;
   }
-  section:nth-child(7) > form > div > p {
+  body > div:nth-child(7) > form > div > p {
     position: absolute;
     top: -50px;
     right: 25%;
@@ -79,32 +79,32 @@
     height: 30px;
     margin-left: 5px;
   }
-  section:nth-child(7) > form input[type="submit"] {
+  body > div:nth-child(7) > form input[type="submit"] {
     position: relative;
   }
-  section:nth-child(7) input {
+  body > div:nth-child(7) input {
     width: 300px;
   }
 }
 
 @media screen and (max-width: 1600px) {
-  section:nth-child(4) p:first-child::before {
+  body > div:nth-child(4) p:first-child::before {
     transform: scale(0.7);
     left: 0%;
   }
 }
 
 @media screen and (max-width: 1300px) {
-  section:nth-child(7) input {
+  body > div:nth-child(7) input {
     margin: 0;
   }
-  section:nth-child(7) > form > div {
+  body > div:nth-child(7) > form > div {
     margin-top: 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  section:nth-child(7) input {
+  body > div:nth-child(7) input {
     margin: 0 15px;
   }
 }
